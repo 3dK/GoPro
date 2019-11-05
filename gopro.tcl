@@ -29,7 +29,8 @@
 #				Create mounting directory for GPHOTOFS
 #
 # Requirements:	GPhotoFS
-#				FFMpeg
+#		FFMpeg
+#		Tcl 8.6
 #
 # To-do:		Parallel service execution not working. While "auto move" service is running, other "auto move" will be ignored
 #				Move converted videos to backup storage with proper ownership/permissions for cloud usage
