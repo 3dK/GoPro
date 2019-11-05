@@ -1,3 +1,5 @@
+# /etc/systemd/system/gopro@.service
+
 [Unit]
 Description=Process GoPro (%i) images and videos
 
