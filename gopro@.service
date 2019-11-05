@@ -1,0 +1,11 @@
+[Unit]
+Description=Process GoPro (%i) images and videos
+
+[Service]
+Type=simple
+User=1000
+Group=1001
+ExecStart=/mnt/storage/stuff/GoPro/scripts/gopro.tcl auto move
+
+[Install]
+WantedBy=multi-user.target
