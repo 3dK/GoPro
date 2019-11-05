@@ -1,1 +1,2 @@
+# /etc/udev/rules.d/99-gopro.rules
 ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="2672", ATTRS{idProduct}=="000c", ATTR{serial}=="C3111025643923", TAG+="systemd", ENV{SYSTEMD_WANTS}+="gopro@.service", SYMLINK+="gopro"
